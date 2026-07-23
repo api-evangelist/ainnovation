@@ -1,8 +1,26 @@
 aid: ainnovation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ainnovation.png
 name: AInnovation
-description: 'AInnovation is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'AInnovation (创新奇智, Qingdao AInnovation Technology Group) is a Chinese enterprise
+  artificial-intelligence company founded in 2018 and listed on the Hong Kong Stock Exchange
+  (02121.HK). It focuses on "AI + Manufacturing", delivering industrial AI through its AInnoGC
+  platform — an industrial large-language-model and AI-agent application-development platform —
+  and its MMOC technology stack: ManuVision machine-vision, MatrixVision edge-video intelligence,
+  and the Orion distributed machine-learning platform. It serves manufacturing verticals including
+  semiconductors, steel, 3C electronics, automotive, energy, food and materials, construction, and
+  financial services. Backed by SoftBank Vision Fund, the company reports 1,400+ patent applications.
+  No public developer API, SDK, or developer portal is published as of this profile.'
 url: https://raw.githubusercontent.com/api-evangelist/ainnovation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +34,25 @@ modified: '2026-07-17'
 tags:
 - Company
 - Enterprise
+- Artificial Intelligence
+- Manufacturing
+- Machine Vision
+- Machine Learning
+- Industrial AI
+- China
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ainnovation-domain-security.yml
+- type: Website
+  url: https://www.ainnovation.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
