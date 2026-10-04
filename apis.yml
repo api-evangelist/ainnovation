@@ -48,7 +48,7 @@ tags:
 - Artificial Intelligence
 - Manufacturing
 - Machine Vision
-- Machine-Learning
+- Machine Learning
 - Industrial AI
 - China
 tags_raw:
@@ -60,6 +60,7 @@ tags_raw:
 - Machine Learning
 - Industrial AI
 - China
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
